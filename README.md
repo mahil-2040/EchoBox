@@ -96,7 +96,6 @@ flutter run
 ### Change User Settings
 ![User Settings](assets/screenshots/Settings.png)
 
-> Replace `assets/screenshots/*.png` with your actual screenshot paths in the repo.
 
 ---
 
