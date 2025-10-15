@@ -9,11 +9,10 @@ class FileSender {
   int _resumeOffset = 0;
   bool _isPaused = false; 
 
-  FileSender({required this.filePath, required this.senderIP, required this.availablePort , required this.size});
 
+  FileSender({required this.filePath, required this.senderIP, required this.availablePort , required this.size});
   Future<void> startSendingFile() async {
     final file = File(filePath);
-
     if (!file.existsSync()) {
       print("File does not exist: $filePath");
       return;
